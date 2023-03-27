@@ -37,3 +37,5 @@ Note that creating a target still results in a global target registration.
 
 This repo is a proof of concept that I'm considering publishing as a nuget package. Feedback is helpful!
 If it's popular enough I may contribute it to FAKE.
+
+The library is just [one short file](./src/Library.fs) if you want to use it before I publish to nuget.

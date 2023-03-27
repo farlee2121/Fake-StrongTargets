@@ -1,7 +1,9 @@
 ﻿module Build
 
 open Fake.Core
-open Fake.Strong 
+open Fake.StrongTargets
+
+module TRef = Target.ByRef
 
 [<EntryPoint>]
 let main argv =
@@ -11,9 +13,9 @@ let main argv =
     |> Context.RuntimeContext.Fake
     |> Context.setExecutionContext
 
-    let hello = Target.def "Hello" (fun _ ->
+    let hello = TRef.create "Hello" (fun _ ->
         printfn "hello from FAKE!"
     )   
 
-    Fake.Strong.Target.runOrDefault hello
+    Target.ByRef.runOrDefault hello
     0

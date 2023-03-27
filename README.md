@@ -70,7 +70,7 @@ This approach can also be used for different dependencies based on different con
 
 ## Project Status
 
-This repo is a proof of concept that I'm considering publishing as a nuget package. Feedback is helpful!
-If it's popular enough I may contribute it to FAKE.
+This repo is a proof of concept, but it works and is low risk since it just aliases a few commands in Fake.Core.Targets.
 
-The library is just [one short file](./src/Library.fs) if you want to use it before I publish to nuget.
+If it's popular enough I may contribute it to FAKE and/or pursue an API that separates target declaration from global registration.
+Feedback is appreciated!

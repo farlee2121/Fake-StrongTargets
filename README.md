@@ -1,6 +1,5 @@
 # Fake.Targets.Strong
-Refer to [FAKE](https://fake.build/) targets by reference, not strings, to increase compiler safety.
-
+Improve compiler safety by refering to [FAKE](https://fake.build/) targets as values, not strings.
 
 ## Example
 

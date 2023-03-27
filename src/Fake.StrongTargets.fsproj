@@ -6,12 +6,27 @@
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
   </PropertyGroup>
 
+	<PropertyGroup>
+		<PackageId>Fake.StrongTargets</PackageId>
+		<Title>Fake StrongTargets</Title>
+		<VersionPrefix>0.1.0</VersionPrefix>
+		<Description>
+			Improve compiler safety by refering to FAKE targets as values, not strings.
+		</Description>
+		<Authors>Spencer Farley</Authors>
+		<PackageLicenseExpression>MIT</PackageLicenseExpression>
+		<RepositoryUrl>https://github.com/farlee2121/Fake-StrongTargets</RepositoryUrl>
+		<PackageTags>FAKE;Targets;References;Compiler safety</PackageTags>
+		<PackageReadmeFile>README.md</PackageReadmeFile>
+	</PropertyGroup>
+
   <ItemGroup>
     <PackageReference Include="Fake.Core.Target" Version="5.23.1" />
   </ItemGroup>
 
   <ItemGroup>
     <Compile Include="Library.fs" />
+	  <None Include="..\README.md" Pack="true" PackagePath="\" />
   </ItemGroup>
 
 </Project>

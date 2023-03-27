@@ -1,6 +1,7 @@
-[![Nuget](https://img.shields.io/nuget/v/Fake.StrongTargets)](https://www.nuget.org/packages/Fake.StrongTargets/)
 
 # Fake.Targets.Strong
+[![Nuget](https://img.shields.io/nuget/v/Fake.StrongTargets)](https://www.nuget.org/packages/Fake.StrongTargets/)
+
 Improve compiler safety by refering to [FAKE](https://fake.build/) targets as values, not strings.
 
 ## Example

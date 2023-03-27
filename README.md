@@ -1,3 +1,5 @@
+[![Nuget](https://img.shields.io/nuget/v/Fake.StrongTargets)](https://www.nuget.org/packages/Fake.StrongTargets/)
+
 # Fake.Targets.Strong
 Improve compiler safety by refering to [FAKE](https://fake.build/) targets as values, not strings.
 
@@ -37,7 +39,7 @@ let clean = TRef.create "clean" ...
 
 ### Fsx/script usage
 
-Usage in a script-based build is the same, just reference the (coming soon) nuget package.
+Usage in a script-based build is the same, just reference the nuget package.
 
 ```fsharp
 #r "paket:

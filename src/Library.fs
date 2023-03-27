@@ -37,5 +37,10 @@ module Operators =
 
     let (<=?) dependent dependency =
         dependent |> Target.ByRef.softDependsOn [dependency]
-    
+
+    let (==>) dependency dependent =
+        dependent |> Target.ByRef.dependsOn [dependency]
+
+    let (?=>) dependency dependent =
+        dependent |> Target.ByRef.softDependsOn [dependency]
 

@@ -71,6 +71,23 @@ default'
 
 This approach can also be used for different dependencies based on different conditional statements.
 
+### Operators
+
+There are also operators defined in `Fake.StrongTargets.Operators` equivalent to the basic fake operators
+- left depends`dependent <== [dependencies]`
+- right depends `dependency ==> dependent`
+- left soft depends `dependent <=? dependency`
+- right soft depends `dependency ?=> dependent`
+
+So you could still define a build tree similar to what is normally shown in the Fake docs.
+```fsharp
+open Fake.StrongTargets.Operators
+
+clean ==> build ==> test ==> default'
+```
+
+Note that you can't use both the string-based operators and these operators at the same time because the definitions conflict
+
 ## Project Status
 
 This repo is a proof of concept, but it works and is low risk since it just aliases a few commands in Fake.Core.Targets.

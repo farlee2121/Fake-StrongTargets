@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
-    <TargetFramework>net7.0</TargetFramework>
+    <TargetFramework>net6.0</TargetFramework>
   </PropertyGroup>
 
   <ItemGroup>
@@ -12,6 +12,7 @@
   <ItemGroup>
     <PackageReference Include="Fake.Core.Target" Version="6.0.0" />
     <PackageReference Include="Fake.IO.FileSystem" Version="6.0.0" />
+	<PackageReference Include="Fake.DotNet.Cli" Version="6.0.0" />
   </ItemGroup>
 
   <ItemGroup>

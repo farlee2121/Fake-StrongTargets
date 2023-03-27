@@ -1,4 +1,4 @@
-﻿
+
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Documentation", "docs\Docum
 EndProject
 Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Build", "Build.fsproj", "{49280887-1DC9-4BBA-A1A9-6107322154AE}"
 EndProject
-Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Fake.Targets.Strong", "src\Fake.Targets.Strong.fsproj", "{B3EACEC9-B475-4650-87C1-3547DB633F0D}"
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Fake.StrongTargets", "src\Fake.StrongTargets.fsproj", "{B3EACEC9-B475-4650-87C1-3547DB633F0D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

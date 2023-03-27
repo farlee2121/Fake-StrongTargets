@@ -9,7 +9,7 @@
 	<PropertyGroup>
 		<PackageId>Fake.StrongTargets</PackageId>
 		<Title>Fake StrongTargets</Title>
-		<VersionPrefix>0.1.0</VersionPrefix>
+		<VersionPrefix>0.2.0</VersionPrefix>
 		<Description>
 			Improve compiler safety by refering to FAKE targets as values, not strings.
 		</Description>

@@ -79,7 +79,7 @@ There are also operators defined in `Fake.StrongTargets.Operators` equivalent to
 - left soft depends `dependent <=? dependency`
 - right soft depends `dependency ?=> dependent`
 
-So you could still define a build tree similar to what is normally shown in the Fake docs.
+So you could still define target dependencies similar to what is normally shown in the Fake docs.
 ```fsharp
 open Fake.StrongTargets.Operators
 
